@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styleSheet/index.css">
+    <script src="./script/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+<div>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mouri</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+
+    </header>
+</div>
+
+
+    <div class="bg-container">
+
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item crousel-background active">
+                    <div class="carousel-box">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png"
+                                alt="..." />
+                        </div>
+                        <div>
+                            <h1>hello garida</h1>
+                        </div>
+
+
+                        <div>
+                            <img src="./Assets/image/pngtree-atmospheric-technology-electronics-company-banner-image_183324.jpg"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item crousel-background">
+                    <img src="./Assets/image/pngtree-atmospheric-technology-electronics-company-banner-image_183324.jpg"
+                        class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="carousel-item crousel-background">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png"
+                        class="d-block w-50" alt="..." />
+                </div>
+
+                <div class="carousel-item crousel-background">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png"
+                        class="d-block w-50" alt="..." />
+                    <h1>hello mart</h1>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--End Carousel-->
+
+        
+        <div class="best-container ">
+
+            <h1 class="best-sellers-heading ">Best Products</h1>
+    
+            <div class="best-seller-container" id="bestSellerContainer">
+    
+                <div class="book" id="book" onclick="buyBtn()">
+                    <img src="./Assets/image/FHM1408BDL-Washing-Machines-Front-View-350-v1.webp" alt="" class="best-seller-image" />
+                    <h3>Washing Machine</h3>
+                    <p>100$</p>
+
+    
+                </div>
+                <div class="book" id="book" onclick="buyBtn()">
+                    <img src="Assets/image/10.jpg" class="best-seller-image" />
+                    <h3>Electronics</h3>
+                   
+                </div>
+    
+                <div class="book" id="book" onclick="buyBtn()">
+                    <img src="./Assets/image/slider-img11.png" class="best-seller-image" />
+                    <h3>Television</h3>
+                    <p>100$</p>
+                    
+                </div>
+                <div class="book" id="book" onclick="buyBtn()">
+                    <img src="./Assets/image/ai-generated-g29bd9d75c_1280.jpg" class="best-seller-image" />
+                    <h3>Refrigerator</h3>
+                    <p>100$</p>
+                    
+                </div>
+    
+    
+            </div>
+        </div>
+
+
+        <div class="testing">
+
+            <div class="testing-project row p-5">
+
+                <div class="testing-col">
+                    <i class="fa fa-shopping-basket fa-5x" ></i>
+                    <h4>100K</h4>
+                    <h3>Projects Complete</h3>
+                </div>
+
+                <div class="testing-col">
+                    <i class="fa fa-trophy fa-5x" aria-hidden="true"></i>
+                    <div>
+                    <h4>100K</h4>
+                    <h3>Satisfied Clients</h3>
+                </div>
+                </div>
+
+                <div class="testing-col">
+                    <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+                    <h4>100+</h4>
+                    <h3>Awards</h3>
+                </div>
+                <div class="testing-col">
+                    <i class="fa fa-users  fa-5x" aria-hidden="true"></i>
+                    <h4>100+</h4>
+                    <h3>Team Member</h3>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+
+        <div class="owl-test-container">
+            <div class="owl-test mt-5">
+                <section id="testimonial_area" class="section_padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="testmonial_slider_area text-center owl-carousel">
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/5.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        
+                                        <div class="book1">
+                                            <img src="./Assets/image/11" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/13_61a1afa7-40dd-4ff2-a26c-e844bf3931bc.webp" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/6.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/8.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/3.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+
+            <div class="owl-test">
+                <section id="testimonial_area" class="section_padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="testmonial_slider_area text-center owl-carousel">
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b2.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b3.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b8.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b6.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b8.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+
+                                    <div class="box-area">
+                                        <div class="book1">
+                                            <img src="./Assets/image/b4.jpg" class="product-image">
+                                        </div>
+                                        <h5>Person's name</h5>
+                                        
+                                        <h6 class="socials">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        <div class="service-heading">
+
+            <h1 class="serviceHeading">Our Sevices</h1>
+        </div>
+        <div class="services-container">
+
+
+            <div class="service-details ">
+                <div class="serviceLogo-image">
+                    <img src="./assests/image/icon-clock-n.png" class="servic-image">
+                </div>
+                <h1>Road Freight</h1>
+                <p>Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor.</p>
+
+            </div>
+            <div class="service-details">
+                <div class="serviceLogo-image">
+                    <img src="./assests/image/icon-box-n.png" class="servic-image">
+                </div>
+                <h1>Safe Delivery</h1>
+                <p>Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor.</p>
+
+            </div>
+            <div class="service-details">
+                <div class="serviceLogo-image">
+                    <img src="./assests/image/icon-support-n.png" class="servic-image">
+                </div>
+                <h1>Warehouse Services</h1>
+                <p>Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor .</p>
+
+            </div>
+            <div class="service-details">
+                <div class="serviceLogo-image">
+                    <img src="./assests/image/icon-support-n.png" class="servic-image">
+                </div>
+                <h1>24/7 Support</h1>
+                <p>Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor.</p>
+
+            </div>
+        </div>
+
+
+
+        <div class="section-image">
+            <div class="bg-layer">
+                <div class="section-container">
+                    <h1 class="section-heading">PROVIDING FLEXIBLE SERVICE LEVELS</h1>
+                    <p class="section-description">"At GARUDAYAAN top Logistics Company in Bangalore, we are dedicated
+                        to providing our clients with
+                        top-notch logistics solutions.
+                        Our team of experienced professionals is committed to ensuring that your shipments are delivered
+                        on time and in perfect condition.</p>
+                    <a href="https://garudamartindia.com/">
+                        <button class="section-btn">Learn More</button>
+                    </a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="extra row">
+            <div class="image1 ">
+                <img src="./Assets/image/hp-1-map-1.jpg">
+            </div>
+            <div class="image2 ">
+                <h1>Garuda Mart</h1>
+                <p>At GARUDAYAAN Top Logistics Company in Bangalore, we are dedicated to providing our clients with
+                    top-notch <br>logistics solutions.
+                    Our team of experienced professionals is committed to ensuring that your shipments<br> le your
+                    logistics needs.</p>
+
+            </div>
+        </div>
+
+
+        <div>
+            <section id="testimonial_area" class="section_padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="testmonial_area text-center owl-carousel">
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area2 box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1 box-area3">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1 box-area4">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div>
+            <section id="testimonial_area" class="section_padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="testmonial_area text-center owl-carousel">
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area2 box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1 box-area3">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1 box-area4">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+
+                                <div class="box-area1">
+                                    
+                                    <h5>Person's name</h5>
+                                    <span>Designation Goes Here</span>
+                                    <h1 class="content">
+                                        Lorem Ipsum 
+                                    </h1>
+                                    <h6 class="socials">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-youtube"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div class="testing">
+
+            <div class="testing-project row p-5">
+
+                <div class="testing-col">
+                    <i class="fa fa-shopping-basket fa-5x" ></i>
+                    <h4>100K</h4>
+                    <h3>Projects Complete</h3>
+                </div>
+
+                <div class="testing-col">
+                    <i class="fa fa-trophy fa-5x" aria-hidden="true"></i>
+                    <div>
+                    <h4>100K</h4>
+                    <h3>Satisfied Clients</h3>
+                </div>
+                </div>
+
+                <div class="testing-col">
+                    <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+                    <h4>100+</h4>
+                    <h3>Awards</h3>
+                </div>
+                <div class="testing-col">
+                    <i class="fa fa-users  fa-5x" aria-hidden="true"></i>
+                    <h4>100+</h4>
+                    <h3>Team Member</h3>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+
+    
+
+        <div>
+            <div class="text-center">
+                <h1 class="contact-heading">Contact Us</h1>
+            </div>
+
+            <div class="contact-details row">
+
+                <div class="google-map col-md-6">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6738787749364!2d77.68260547473488!3d12.992698487324589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13f673ed491b%3A0xdfb01c46522a3f1b!2sGaruda%20Mart%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1681137002762!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade ">
+                    </iframe>
+                </div>
+
+
+                <div class="col-md-6 check">
+                    <div class="col-12">
+
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                            <div>
+
+                                <div class="row query-info pad-15 ">
+
+                                    <div class="contact-name col-6">
+
+                                        <div class="form-item">
+                                            <label for="firstName" class="form-heading">First Name: </label><br>
+                                            <input type="text" id="firstName" class="form-details"
+                                                placeholder="Enter your First Name" required>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-name col-6">
+                                        <div class="form-item">
+                                            <label for="lastName" class="form-heading">Last Name: </label><br>
+                                            <input type="text" id="lastName" class="form-details"
+                                                placeholder="Enter your Last Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="contact-name col-12">
+                                        <div class="form-item">
+                                            <label for="contactNumber" class="form-heading">Contact Number: </label><br>
+                                            <input type="number" id="contactNumber" class="form-details"
+                                                placeholder="Enter your Phone Number" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-name col-12">
+                                        <div class="form-item">
+                                            <label for="email" class="form-heading">Email: </label><br>
+                                            <input type="email" id="email" class="form-details"
+                                                placeholder="Enter your Email ID" required>
+
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div class="col-12">
+                                        <div class="form-item">
+
+                                            <label for="message" class="form-heading">Message: </label><br>
+                                            <textarea class="col-12 form-textarea" id="message" placeholder="Enter your Message"
+                                                style="background-color: #fcf8f8; height: 120px; " required></textarea>
+                                        </div>
+                                        <div class="row">
+
+                                            <button class="send-msg mt-3 mb-2 " id="button">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <footer class="footer mt-5">
+            <div class="footer-container">
+                <div class="footer-para">
+
+                    <h1 class="footer-paragrapgh ">Garudayaan</h1>
+                    <p>Survey No. 183/1, Lake Side Road, Behind NCC Apartment, Mahadevapura
+                        <br> Bangalore(KA). 560048
+                    </p>
+                    <p>Email: info@garudayaan.com</p>
+                    <p>An ISO 9001:2015 certified company</p>
+                </div>
+
+                <div class="footer-para ml-5 mr-5">
+
+                    <h1 class="footer-paragrapgh ">Useful Links</h1>
+                    <a href="https://garudamartindia.com/">
+                        <p class="usefulLink">About Us</p>
+                    </a>
+                    <a href="https://garudamartindia.com/privacy-policy/">
+                        <p class="usefulLink">Privacy Policy</p>
+                    </a>
+                    <a href="https://garudamartindia.com/terms-and-conditions/">
+                        <p class="usefulLink">Terms & Conditions</p>
+                    </a>
+                    <a href="https://garudamartindia.com/returns-refund/">
+                        <p class="usefulLink">Returns & Refunds</p>
+                    </a>
+                </div>
+
+                <div class="icon-container ">
+                    <div class="icon">
+                        <div>
+                            <h1 class="footer-paragrapgh follow">Follow Us</h1>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/garudayaanlogistics"><i
+                                    class="fa fa-facebook-square "></i></a>
+                            <a href="https://www.instagram.com/garudayaanlogistics/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@garudayaanlogistics"><i class="fa fa-twitter "></i></a>
+                            <a href="https://www.linkedin.com/company/garudayaan/"><i
+                                    class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+<script>
+     $(".testmonial_area").owlCarousel({
+            autoplay: true,
+            slideSpeed: 1000,
+            items: 3,
+            loop: true,
+            nav: true,
+            navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+            margin: 30,
+            dots: true,
+            responsive: {
+                320: {
+                    items: 1
+                },
+                767: {
+                    items: 2
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+
+        });
+ 
+</script>
+
+</body>
+
+</html>
