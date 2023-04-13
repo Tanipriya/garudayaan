@@ -101,12 +101,19 @@
   .serviceHeading{
     padding: 30px;
     margin-top: 25px;
-    margin-bottom: 30px;
+    
     text-align: center;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: bold;
   }
-
+.service-heading p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:  rgb(137, 132, 132)#333;
+    
+    
+}
   .contact-heading{
     margin-top: 25px;
     margin-bottom: 30px;
@@ -144,8 +151,7 @@
     font-size: 17px;
     line-height: 25px;
 }
-
-  .section-image{
+.section-image{
     background-image: url(../Assets/image/tv-cabinet-modern-living-room-concrete-wall-3d-rendering_41470-2911.avif);
     background-position: center center;
     background-attachment: fixed;
@@ -155,8 +161,10 @@
     position: relative;
     min-height: 80vh;
     
-  
   }
+
+ 
+
 .extra{
     background-color: white;
     margin: 100px;
@@ -177,7 +185,7 @@
 .image2 p{
     color: black;
 }
-  .bg-layer {
+.bg-layer {
     background-color: rgba(18, 8, 8, 0.7);
     /* Fallback color */
     background: rgba(0,0,0,0.7);
@@ -202,20 +210,25 @@
 .section-container{
   
     padding: 30px;
-    text-align: center;
+    text-align: left;
     color: white;
+    margin-left: 20px;
 
 }
 .section-heading{
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #fff;
 }
 .section-description{
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 22px;
+    font-style: oblique;
+    color: #ada9a9;
+    
 }
 .section-btn{
     width: 130px;
@@ -236,6 +249,44 @@
     width: 140px;
 }
 
+.basuhin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 30px;
+  }
+.section-box{
+    height: 200px;
+    width: 200px;
+    background-color: #c8c3c3;
+    margin-left: 300px;
+    border-radius: 15px;
+    padding: 15px;
+    outline: .1rem solid #ccc;
+    outline-offset: 1.5rem;
+}
+.font-phone:hover{
+    color: #e51519;
+    transition: all 1s ease;
+    
+}
+.icon-design{
+    border-radius: 20%;
+    color: #0b7dda;
+}
+.section-box h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.section-box h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 12px
+}
 .logistic-container{
   display: flex;
   flex-direction: row;
@@ -702,12 +753,24 @@ font-style: oblique;
   
 }
 
-.best-container h1{
+.product-title{
   
-  font-size: 2rem;
-  color: #444;
- text-align: center;
+  font-size: 3rem;
+  color: #f71818;
+ text-align: left;
   margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 18rem;
+  text-decoration: underline;
+}
+.product-title1{
+    font-size: 3rem;
+  color: #eb1010;
+ text-align: left;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .best-container .best-seller-container{
@@ -780,7 +843,3 @@ h3:hover{
     height: 40vh;
 }
 
-.carousel-divide{
-    display: flex;
-    flex-direction: row;
-}
