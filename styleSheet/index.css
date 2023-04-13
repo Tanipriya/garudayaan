@@ -10,7 +10,7 @@
   
   
   body{
-    background:  #e3dddd;
+    
     min-height: 250vh;
     
   }
@@ -359,10 +359,7 @@ font-style: oblique;
    width: 100%;
  
 }
-.contact-details{
-   
-    
-}
+
 .check{
     min-height: 80px;
     padding: 20px;
@@ -494,7 +491,7 @@ font-style: oblique;
     border-radius: 5rem;
     text-align: center;
     color: #333;
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: .2s linear;
   }
   
@@ -503,9 +500,7 @@ font-style: oblique;
     height: 90vh;
  }
 
- body {
-    background: #95989c;
-}
+ 
 
 .box-area {
     padding: 30px;
@@ -516,6 +511,7 @@ font-style: oblique;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 40px 0;
     border: 2px solid rgb(35, 35, 35);
+    transition: .2s linear;
 }
 
 .box-area h5 {
@@ -564,6 +560,12 @@ font-style: oblique;
     text-align: center;
     
 }
+
+.book1:hover {
+    outline: .2rem solid rgb(138, 96, 96);
+    outline-offset: 0;
+}
+
 .product-image:hover{
     transform: scale(.9);
     width: 320px;
@@ -598,32 +600,17 @@ font-style: oblique;
     top: -30px;
 }
 
-@media only screen and (max-width: 991px) {
-    .owl-nav {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .box-area {
-        text-align: center;
-    }
-
-    .owl-nav {
-        display: none;
-    }
-}
-
 
 .testing{
     width: 100%;
-    height: 40vh;
-    background-color: #1e2e4e;
+    height: 50vh;
+    background-color: #2f4c86;
     margin-top: 100px;
 }
 .testing-project{
     display: flex;
     justify-content: space-around;
+    align-items: centers;
     text-align: center;
     color: white;
 }
@@ -637,6 +624,7 @@ font-style: oblique;
 }
 .carousel-box h1{
     color: #089bf7;
+  
 }
 
 
@@ -814,19 +802,21 @@ font-style: oblique;
  text-transform: uppercase;
 }
 h3:hover{
-  color: #4104cf;
+  color: #eea81c;
 }
 .box-area1{
     padding: 30px;
     position: relative;
     display: block;
    height: 250px;
-   width: 550px;
+   width: 480px;
     color: #000;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 40px 0;
-    background-image: url(../Assets/image/banner-04.jpg);
     text-align: left;
+    background-image: url(../Assets/image/banner-04.jpg);
+    
+margin-left: 20px;
 }
 .box-area2{
     background-image: url(../Assets/image/co1.webp);
@@ -842,4 +832,34 @@ h3:hover{
     background-image: url(../Assets/image/5.jpg);
     height: 40vh;
 }
+.offer-alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.offer{
+    font-size: 250px;
+    font-style: italic;
+    color: #f70808;
+    font-weight: bold;
+   
+}
+.offer2{
+    padding-bottom: 20px; 
+    padding-bottom: 30px;
+}
+.launch-date{
+display: flex;
+flex-direction: row;
 
+}
+.launch-date div{
+    margin-top: 10%;
+    align-items: center;
+    padding: 20px;
+}
+.launch-date p{
+    font-size: 70px;
+    
+}
