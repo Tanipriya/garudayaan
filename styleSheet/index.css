@@ -16,6 +16,7 @@
   }
   .bg-container{
     background-color: #fff;
+
   }
   ::placeholder{
     font-size: 1.8rem;
@@ -28,59 +29,9 @@
     margin-left: 20px;
   }
 
-  .header{
-    background-color:  #333; 
-    color:rgb(244, 12, 12);
-    min-height: 5rem;
-    text-align: center;
-    font-size: 40px;
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
   
-  }
-  .ul {
-   
-    display: flex;
-    justify-content: space-between;
-  
-    align-items: center;
-    /*justify-content: space-around;*/
-    position: fixed;
-    background-color: #333;
-    width: 100%;
-  }
-  
-  
-  .search-bar{
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .li {
-    margin:  .1rem;
-  }
-  
- .headerLink {
-    font-size: 1.3rem;
-    color: rgb(240, 61, 61);
-    padding: .5rem 2rem;
-    border-radius: 1.2rem;
-    font-weight: bold;
-    transition: .2s linear;
-  }
-  
- .headerLink:hover {
-    background: #333;
-    
-    color: rgb(218, 244, 218);
-    letter-spacing: .1rem;
-  }
-  
-  .search-submit{
-    margin-left: 3rem;
-    
-  }
-  
+ 
+ 
   input:hover{
     background: white;
     border: 2px solid black;
@@ -524,7 +475,7 @@ font-style: oblique;
     color: #000;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 40px 0;
-    border: 2px solid rgb(35, 35, 35);
+   
     transition: .2s linear;
 }
 
@@ -563,14 +514,14 @@ font-style: oblique;
    
 }
 .product-image{
-    width: 300px;
+    width: 280px;
     height: 200px;
     outline: .1rem solid #ccc;
     outline-offset: 1.5rem;
     padding: 3rem 2rem;
     box-shadow: 0 .5rem 1rem rgba(0 0 0 .1);
     cursor: pointer;
-    border: 1px solid rgb(231, 71, 71);
+   
     text-align: center;
     
 }
@@ -580,11 +531,6 @@ font-style: oblique;
     outline-offset: 0;
 }
 
-.product-image:hover{
-    transform: scale(.9);
-    width: 320px;
-   
-}
 
 #testimonial_area .owl-nav {
     position: absolute;
@@ -612,57 +558,6 @@ font-style: oblique;
 #testimonial_area .owl-next {
     right: -60px;
     top: -30px;
-}
-
-
-
-
-
-.navbar-light .navbar-brand {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-}
-
-.navbar-toggler {
-    background: #fff;
-}
-
-.navbar-nav {
-    text-align: center;
-}
-
-.nav-link {
-    padding: .2rem 1rem;
-}
-
-.nav-link.active,
-.nav-link:focus {
-    color: #fff;
-}
-
-.navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-}
-
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
 }
 
 .image-box{
@@ -703,29 +598,24 @@ font-style: oblique;
 }
 .best-container1{
   height: 420px;
- margin-top: 90px;
- margin-bottom: 80px;
+ 
   padding: 2rem ;
   
 }
 
 
 .product-title{
-  
   font-size: 3rem;
   color: #cb3737;
- text-align: left;
-  margin-bottom: 1.5rem;
+ text-align: center;
   font-weight: bold;
-  margin-bottom: 30px;
-  margin-left: 18rem;
   text-decoration: underline;
 }
 .product-title1{
     font-size: 3rem;
-  color: #4a4646;
+  color: #0548f3;
  text-align: center;
-  margin-bottom: 1.5rem;
+ 
   font-weight: bold;
   text-decoration: underline;
 }
@@ -774,31 +664,46 @@ h3:hover{
   color: #a00505;
 }
 .box-area1{
-    padding: 30px;
+    padding: 50px;
     position: relative;
-    display: block;
-   height: 250px;
-   width: 480px;
+   
+   height: 45vh;
+   width: 490px;
     color: #000;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 40px 0;
     text-align: left;
-    background-image: url(../Assets/image/banner-04.jpg);
+    
+    background-size: cover;
     
 margin-left: 20px;
 }
+.box-area11{
+  background-image: url(../Assets/image/s1.webp);
+  background-size: cover;
+}
 .box-area2{
-    background-image: url(../Assets/image/co1.webp);
-}
-.box-area3{
-    background-image: url(../Assets/image/co5.jpg);
-}
-.box-area4{
-    background-image: url(../Assets/image/co4.jpg);
+    background-image: url(../Assets/image/s3.webp);
     background-size: cover;
 }
+.box-area3{
+    background-image: url(../Assets/image/s2.webp);
+    background-size: cover;
+}
+.box-area4{
+    background-image: url(../Assets/image/slide-img2.jpg);
+    background-size: cover;
+}
+.box-area5{
+  background-image: url(../Assets/image/cms-banner-5.webp);
+  background-size: cover;
+}
+.box-area6{
+  background-image: url(../Assets/image/hp-1-map-1.jpg);
+  background-size: cover;
+}
 .image-area{
-    background-image: url(../Assets/image/5.jpg);
+    background-image: url(../Assets/image/Unsplash.jpeg);
     height: 40vh;
 }
 
@@ -968,8 +873,19 @@ flex-direction: row;
   position: relative;
   margin-bottom: 12px;
 }
+.summer-image1{
+  height: 300px;
+  width: 350px;
+  position: relative;
+  margin-bottom: 12px;
+}
 .summer-sale-box{
   margin-left: 150px;
+}
+.inner-carousel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .summer-head{
   background-color: white;
@@ -1010,36 +926,47 @@ flex-direction: row;
 }
 
 
-.navbar-nav a {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 500;
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-.navbar-light .navbar-brand {
-	color: #000;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
+
+.navbar-image{
+  width: 70;
+  height: 60px;
+ 
 }
-.navbar-brand span {
-	color: green;
+.navbar-image1{
+  width: 30px;
+  height: 30px;
+  
 }
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-	color: #000;
+.btn{
+  border: 1px solid red;
 }
-.navbar-light .navbar-nav .nav-link {
-	color: #000;
+.logo-design{
+  color: red;
+  font-size: 20px;
+
+  border-radius: 50%;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #000;
+.navbar-logo-heading{
+  color: red;
 }
-.w-100 {
-	height: 100vh;
+.nav-title{
+  color: white;
+  font-size: 17px;
 }
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
+.nav-title:hover{
+  transition: all .7s ease-in;
+  border-radius: 16px;
+  
+}
+.navbar{
+  height: 70px;
+}
+
+.div-container{
+  margin: 140px;
 }
