@@ -28,14 +28,6 @@
     margin-left: 20px;
   }
 
-  
-  input:hover{
-    background: white;
-    border: 2 solid black;
-    color: black;
-  }
-
-  
   .header{
     background-color:  #333; 
     color:rgb(244, 12, 12);
@@ -46,9 +38,8 @@
     padding-left: 0.5rem;
   
   }
-  
   .ul {
-    list-style: none;
+   
     display: flex;
     justify-content: space-between;
   
@@ -77,6 +68,29 @@
     font-weight: bold;
     transition: .2s linear;
   }
+  
+ .headerLink:hover {
+    background: #333;
+    
+    color: rgb(218, 244, 218);
+    letter-spacing: .1rem;
+  }
+  
+  .search-submit{
+    margin-left: 3rem;
+    
+  }
+  
+  input:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+  }
+
+  
+
+  
+  
   
  .headerLink:hover {
     background: #333;
@@ -791,7 +805,7 @@ margin-left: 20px;
 
 .testing{
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   background-color: #2f4c86;
   margin-top: 100px;
 }
@@ -804,12 +818,66 @@ margin-left: 20px;
 }
 
 .testing1{
-padding: 30px;
-margin: 30px;
-height: 60vh;
-background-image: url(../Assets/image/cor5.webp);
-background-size: cover;
 
+    padding: 56px 48px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0042/0750/9567/files/10_caf6ff67-7343-426b-9fdb-b61dd702f87a.jpg?v=1623059274);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    height: 50vh;
+
+}
+.text-align{
+  margin-right: 30px;
+margin-top: 20px;
+}
+.text-align h1{
+  font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.text-align p{
+  color: #333;
+}
+.amount-align span{
+  font-size: 18px;
+    color: #777;
+    text-decoration: line-through;
+    margin-bottom: 15px;
+    display: block;
+}
+.amount-align h3{
+  color: #e02b2b;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.btn-shop{
+  background-color: #000;
+    border-color: #333;
+    color: #fff;
+    border-radius: 18px;
+    border: 1px solid transparent;
+   height: 40px;
+   width: 110px;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    outline: none;
+    transition: all .2s;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+   
+}
+
+.amount-align{
+  margin-left: 160px;
+  margin-top: 40px;
 }
 
 .offer-alignment{
@@ -847,25 +915,131 @@ flex-direction: row;
 
 .corCheck{
   background-image: url(../Assets/image/cor1.webp);
+ 
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
   height: 70vh;
   width: 100%;
 }
 .corCheck2{
   background-image: url(../Assets/image/cor4.webp);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 70vh;
   width: 100%;
+  padding: 80px;
 
+}
+.corCheck2 h2{
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .corCheck4{
   background-image: url(../Assets/image/cor3.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 70vh;
+  padding: 80px;
   width: 100%;
+}
+.corCheck4 h2{
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 .slide__block-subtitle {
   color: #e02b2b;
   font-weight: 600;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.summer-image{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.summer-sale-box{
+  margin-left: 150px;
+}
+.summer-head{
+  background-color: white;
+  width: 120px;
+  height: 30px;
+  margin-left: 60px;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  
+}
+.inner-car1{
+  display: flex;
+  flex-direction: row;
+
+}
+.offer-heading{
+  font-weight: 550;
+  font-size: 35px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.offer-heading2{
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 80px;
+  margin-top: 15px;
+  color: #0b7dda;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+}
+.text-base{
+  text-align: left;
+  font-size: 20px;
+}
+
+
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-brand span {
+	color: green;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
 }

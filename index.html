@@ -32,37 +32,33 @@
 <body>
 
     <div>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Mouri</a> <button aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                        data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
-                            class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span>Vege</span>Shop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">vegetables</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Garden</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>        
+                </ul>
+              </div>
+            </div>
+        </nav>
     </div>
 
 
@@ -80,22 +76,33 @@
             <div class="carousel-inner">
                 <div class="carousel-item crousel-background active">
 
-                    <div class="corCheck">
+                    <div class="corCheck ">
+                        <div class="inner-car1" >
+
                         <div class="sf__slide-content max-w-4xl w-max text-left slide-in">
 
                             <div>
 
-                                <div class="slide__block-subtitle text-base mb-2 md:mb-[14px] 
+                                <div class="slide__block-subtitle text-base mb-5 md:mb-[20px] 
                                 text-black md:text-black
                               ">🔥 Hot Deal This Week</div>
-                                <h2>Portable Bluetooth<br>
-                                    4.2 Speaker</h2>
-                                <button>Shop Now</button>
-
+                                <h2 class="offer-heading" >Your wait is over!
+                                </h2>
+                                <h1 class="offer-heading2">Sale is Live</h1>
+                                <div style="text-align: center;">
+                                <button class="btn-shop mt-2 " >Shop Now</button>
+                            </div>
                             </div>
                         </div>
+                            <div class=" summer-sale-box">
+                                <img src="./Assets/image/summe1.jpg" class="summer-image">
+                                <p class="summer-head">16th - 21th</p>
+                            </div>
 
-                    </div>
+                        </div>
+                        </div>
+
+                    
 
 
                 </div>
@@ -103,6 +110,8 @@
 
                 <div class="carousel-item crousel-background">
                     <div class="corCheck2">
+
+                        <div class="inner-car1" >
                         <div>
 
                             <div class="slide__block-subtitle text-base mb-2 md:mb-[14px] 
@@ -110,15 +119,23 @@
                           ">🔥 Hot Deal This Week</div>
                             <h2>Portable Bluetooth<br>
                                 4.2 Speaker</h2>
-                            <button>Shop Now</button>
+                            <button class="btn-shop">Shop Now</button>
 
                         </div>
+
+                        <div class=" summer-sale-box">
+                            
+                            <img src="./Assets/image/dis2" class="summer-image">
+                            
+                        </div>
+                        
                     </div>
                 </div>
-
+            </div>
                 
                 <div class="carousel-item crousel-background">
                     <div class="corCheck4">
+                        <div class="inner-car1" >
                         <div>
 
                             <div class="slide__block-subtitle text-base mb-2 md:mb-[14px] 
@@ -126,11 +143,18 @@
                           ">🔥 Hot Deal This Week</div>
                             <h2>Portable Bluetooth<br>
                                 4.2 Speaker</h2>
-                            <button>Shop Now</button>
+                            <button class="btn-shop">Shop Now</button>
 
+                        </div>
+
+                        <div class=" summer-sale-box">
+                            
+                            <img src="./Assets/image/di3.jpg" class="summer-image">
+                            
                         </div>
                     </div>
                 </div>
+            </div>
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -277,17 +301,17 @@
         <div class="testing1  ">
             <div class="offer-alignment">
 
-                <div>
+                <div class="text-align">
                         <h1>Sony Headphone
                         <br> Discount 20%</h1>
                         <p>Whether you’re out to play or stepping out to
                             <br>make a fashionable statement.</p>
 
                 </div>
-                <div>
-                    <h2>$139.00</h2>
-                    <h3>$129.00</h3>
-                    <button>Shop Now</button>
+                <div class="amount-align">
+                    <span>$139.00</span>
+                    <h3>$100.00</h3>
+                    <button class="btn-shop">Shop Now</button>
                 </div>
                 <div class="launch-date">
                     
