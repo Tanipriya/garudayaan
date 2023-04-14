@@ -601,62 +601,7 @@ font-style: oblique;
 }
 
 
-.testing{
-    width: 100%;
-    height: 50vh;
-    background-color: #2f4c86;
-    margin-top: 100px;
-}
-.testing-project{
-    display: flex;
-    justify-content: space-around;
-    align-items: centers;
-    text-align: center;
-    color: white;
-}
 
-
-.carousel-box{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    
-}
-.carousel-box h1{
-    color: #089bf7;
-  
-}
-
-
-
-
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.carousel-caption {
-    bottom: 270px;
-}
-
-.carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-}
-
-.carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-}
 
 
 .navbar-light .navbar-brand {
@@ -736,15 +681,25 @@ font-style: oblique;
 
 .best-container{
   height: 420px;
-  margin: 0 auto;
+ 
+ margin-bottom: 80px;
+  padding: 2rem ;
+  
+  
+}
+.best-container1{
+  height: 420px;
+ margin-top: 90px;
+ margin-bottom: 80px;
   padding: 2rem ;
   
 }
 
+
 .product-title{
   
   font-size: 3rem;
-  color: #f71818;
+  color: #cb3737;
  text-align: left;
   margin-bottom: 1.5rem;
   font-weight: bold;
@@ -754,14 +709,14 @@ font-style: oblique;
 }
 .product-title1{
     font-size: 3rem;
-  color: #eb1010;
- text-align: left;
+  color: #4a4646;
+ text-align: center;
   margin-bottom: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.best-container .best-seller-container{
+.best-seller-container{
   
   display: flex;
   gap: 2rem;
@@ -770,7 +725,7 @@ font-style: oblique;
 
 }
 
-.best-container .best-seller-container .book{
+.best-seller-container .book{
   text-align: center;
   height: 330px;
   width: 270px;
@@ -782,11 +737,11 @@ font-style: oblique;
   cursor: pointer;
 
 }
-.best-container .best-seller-container .book:hover{
-  outline: 3px solid rgb(241, 24, 24);
+.best-seller-container .book:hover{
+  outline: 2px solid rgb(241, 24, 24);
   outline-offset: 0;
 }
-.best-container .best-seller-container .book:hover img{
+.best-seller-container .book:hover img{
   transform: scale(.9);
 }
 
@@ -802,7 +757,7 @@ font-style: oblique;
  text-transform: uppercase;
 }
 h3:hover{
-  color: #eea81c;
+  color: #a00505;
 }
 .box-area1{
     padding: 30px;
@@ -832,20 +787,45 @@ margin-left: 20px;
     background-image: url(../Assets/image/5.jpg);
     height: 40vh;
 }
+
+
+.testing{
+  width: 100%;
+  height: 50vh;
+  background-color: #2f4c86;
+  margin-top: 100px;
+}
+.testing-project{
+  display: flex;
+  justify-content: space-around;
+  align-items: centers;
+  text-align: center;
+  color: white;
+}
+
+.testing1{
+padding: 30px;
+margin: 30px;
+height: 60vh;
+background-image: url(../Assets/image/cor5.webp);
+background-size: cover;
+
+}
+
 .offer-alignment{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+   
    
 }
 .offer{
-    font-size: 250px;
+    
     font-style: italic;
     color: #f70808;
     font-weight: bold;
    
 }
-.offer2{
+.offer3{
     padding-bottom: 20px; 
     padding-bottom: 30px;
 }
@@ -862,4 +842,30 @@ flex-direction: row;
 .launch-date p{
     font-size: 70px;
     
+}
+
+
+.corCheck{
+  background-image: url(../Assets/image/cor1.webp);
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.corCheck2{
+  background-image: url(../Assets/image/cor4.webp);
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+
+}
+
+.corCheck4{
+  background-image: url(../Assets/image/cor3.jpg);
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.slide__block-subtitle {
+  color: #e02b2b;
+  font-weight: 600;
 }
