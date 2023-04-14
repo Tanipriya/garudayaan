@@ -66,7 +66,7 @@
   .serviceHeading{
     padding: 30px;
     margin-top: 25px;
-    
+    color: #fff;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -75,7 +75,7 @@
     text-align: center;
     font-size: 18px;
     margin-bottom: 30px;
-    color:  rgb(137, 132, 132)#333;
+    color:  #fff
     
     
 }
@@ -600,22 +600,29 @@ font-style: oblique;
   height: 420px;
  
   padding: 2rem ;
-  
+ 
 }
-
+.service-background{
+  background: linear-gradient(45deg, #4D0062 37.47%, #250074 93.82%);
+  margin-bottom: 20px;
+}
+.service-background1{
+  background: #ebe5e5
+}
 
 .product-title{
   font-size: 3rem;
   color: #cb3737;
  text-align: center;
   font-weight: bold;
+ 
   text-decoration: underline;
 }
 .product-title1{
     font-size: 3rem;
-  color: #0548f3;
+  color: #000;
  text-align: center;
- 
+
   font-weight: bold;
   text-decoration: underline;
 }
@@ -969,4 +976,9 @@ flex-direction: row;
 
 .div-container{
   margin: 140px;
+}
+.below-carousel{
+  background: linear-gradient(45deg, #4D0062 37.47%, #250074 93.82%);
+  height: 30vh;
+  width: 100%;
 }
